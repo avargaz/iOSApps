@@ -45,12 +45,12 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     
-//    
+    
 //    //MARK: - Networking
 //    /***************************************************************/
-//    
-//    func getWeatherData(url: String, parameters: [String : String]) {
-//        
+//
+//    func getBitcoinData(url: String) {
+//
 //        Alamofire.request(url, method: .get, parameters: parameters)
 //            .responseJSON { response in
 //                if response.result.isSuccess {
@@ -68,26 +68,26 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 //
 //    }
 //
-//    
-//    
-//    
-//    
+//
+//
+//
+//
 //    //MARK: - JSON Parsing
 //    /***************************************************************/
-//    
+//
 //    func updateWeatherData(json : JSON) {
-//        
+//
 //        if let tempResult = json["main"]["temp"].double {
-//        
+//
 //        weatherData.temperature = Int(round(tempResult!) - 273.15)
 //        weatherData.city = json["name"].stringValue
 //        weatherData.condition = json["weather"][0]["id"].intValue
 //        weatherData.weatherIconName =    weatherData.updateWeatherIcon(condition: weatherData.condition)
 //        }
-//        
+//
 //        updateUIWithWeatherData()
 //    }
-//    
+//
 
 
 
