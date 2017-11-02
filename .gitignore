@@ -66,3 +66,6 @@ playground.xcworkspace
 build
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
+
+Pods
+
